@@ -15,3 +15,6 @@ This is a project which developed by Luiza Galyautdinova. Here you can add, edit
 - React
 - Mobx
 - React-Bootstrap
+- React-router-dom
+- Formik
+- Yup

@@ -2,7 +2,7 @@ import { ListGroup, Badge } from "react-bootstrap";
 
 const List = () => {
 return (
-<di className="">
+<div className="">
 <h3>Hey!</h3>
 <ListGroup as="ol" numbered>
 <ListGroup.Item as="li" className="d-flex justify-content-between align-items-start">
@@ -33,7 +33,7 @@ Cras justo odio
 </Badge>
 </ListGroup.Item>
 </ListGroup>
-</di>
+</div>
 );
 };
 

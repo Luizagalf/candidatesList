@@ -2,12 +2,16 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import { BrowserRouter, Route, Routes, Navigate } from "react-router-dom";
 
+import { Provider } from "mobx-react";
+import store from "./Stores";
+
 import Header from "./Components/Header";
 import Main from "./Components/Main";
 import List from "./Components/List";
 
 function App() {
 return (
+<Provider {...store}>
 <BrowserRouter>
 <div className="app">
 <Header />
@@ -23,6 +27,7 @@ return (
 </div>
 </div>
 </BrowserRouter>
+</Provider>
 );
 }
 

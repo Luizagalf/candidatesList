@@ -13,7 +13,7 @@ This is a project which developed by Luiza Galyautdinova. Here you can add, edit
 ## Toolbox
 
 - React
-- Mobx
+- Mobx-React
 - React-Bootstrap
 - React-router-dom
 - Formik
